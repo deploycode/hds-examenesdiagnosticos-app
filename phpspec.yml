@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: examenesApp
+        psr4_prefix: examenesApp
+        src_path: app

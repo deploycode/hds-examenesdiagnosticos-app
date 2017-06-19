@@ -1,0 +1,390 @@
+/*FUENTE DE https://www.onlinewebfonts.com/download/4f1be4e2c4c6001a65f4f445186b8e04*/
+@font-face {font-family: "Frutiger";
+    src: url("../fonts/Frutiger/Frutiger 45 Light.eot");
+    src: url("../fonts/Frutiger/Frutiger 45 Light.woff") format("woff"),
+    url("../fonts/Frutiger/Frutiger 45 Light.ttf") format("truetype"),
+    url("../fonts/Frutiger/Frutiger 45 Light.svg") format("svg");
+}
+/******************************************************************************/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ font-family: "Frutiger";
+}
+footer{
+  background-color: #f5f5f5;
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+ .ul-principal>li{
+   border-right: 1px solid white;
+ }
+ ul>li:last-child{
+   border-left: 0px solid white;
+   border-right: none;
+ }
+/*****************************************/
+div#div_file{
+  background-color: #1173c1;
+  position: relative;
+  width: 20%;
+  height: 20%;
+}
+/*******************************************************************************/
+.a-btn{
+ text-align: left;
+ color: white;
+ padding: 1em;
+ font-size: 18px;
+ display: block;
+ border-top: 1px solid white;
+
+}
+.a-btn:hover, .a-btn:focus{
+ transition: all 0.5s ease;
+ background-color: rgba(18, 161, 155, 0.66);
+ color: white;
+ text-decoration: none;
+}
+.a-sidebar{
+  border-color: white!important;
+  display: block;
+  background-color: #009ee2;
+  border-bottom-right-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
+  border-top: 1px solid;
+}
+
+.a-sidebar .h1-sidebar:hover, .open>.a-sidebar .h1-sidebar  {
+  color: white;
+}
+.a-submenu{
+  display: inline-block;
+  width: 60%;
+}
+/******************************************************************************/
+.btn-menu-movil{
+ background-color: #12A19B;
+}
+.btn-group-vertical>a:first-child{
+  border-top-right-radius: 10px!important;
+  border-top-left-radius: 10px!important;
+}
+.btn-group-vertical>a:last-child{
+  border-bottom-right-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
+}
+.bloque{
+  display: block;
+  margin-bottom: 15vh;
+}
+.breadcrumb{
+  padding-left: 15%;
+}
+.navbar-collapse.in {
+    overflow-y: inherit;
+}
+/******************************************************************************/
+.citas{
+  background-color: #12A19B;
+}
+.citas-form{
+  height: 100%;
+  padding-top: 19%;
+}
+.citas-row{
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+.citas-label{
+  color: white;
+}
+.caret{
+  border: 1px solid white;
+  font-size: white;
+}
+/*******************************************************************************/
+.div-btn-group{
+  width: 100%;
+}
+.div-columna-3{
+  height: 50vh;
+  position: relative;
+}
+.div-imagen{
+  position: relative;
+}
+.img-imagen{
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+/*******************************************************************************/
+.footer-fondo{
+  background-color: #dedede;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.footer-superior{
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.footer-superior p{
+  width: 60%;
+  margin: auto;
+}
+.form-citas{
+  padding: 1em;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.form-citas label{
+  color: white;
+}
+/*******************************************************************************/
+.header-div{
+ padding: 0px;
+}
+.h1-footer{
+  font-size: 16px;
+  color: #12A19B;
+}
+.h1-sidebar{
+  margin: 0;
+  color: white;
+  font-size: 16px;
+}
+/*******************************************************************************/
+.img-miniatura{
+ display: block;
+ margin: auto;
+ margin-bottom: 1em;
+ width: 143px;
+ height: 143px;
+}
+.img-thumbnail{
+}
+/*******************************************************************************/
+.logo{
+  width: 100%;
+}
+.li-sidebar{
+  width: 100%;
+}
+.li-sidebar{
+  width: 100%;
+}
+.a-sidebar{
+  background-color: #009ee2!important;
+}
+/*******************************************************************************/
+.margen-top-14{
+  margin-top: 14%;
+}
+.menu{
+ margin-top: -40%;
+ }
+.mi-boton{
+   height: 54px;
+ }
+
+.mi-label{
+ color: #24bad5;
+}
+
+.miniatura{
+  min-width: 350px!important;
+  min-height: 350px!important;
+  max-width: 350px!important;
+  max-height: 350px!important;
+}
+.miniatura2{
+  width: 100%;
+  min-height: 350px!important;
+  max-height: 350px!important;
+}
+.margin5{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+/*******************************************************************************/
+.nav{
+  /*margin-top: 10%;*/
+}
+.nav-sidebar{
+  margin: 0!important;
+  width: 100%;
+}
+.nav .h1-menu{
+  background-color: #12A19B;
+  display: inline-block;
+  width: 100%;
+  padding: 0.7em;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.nav .open>.a-menu, .nav .open>.a-menu:hover, .nav .open>.a-menu:focus {
+    transition: all 0.2s ease;
+    background-color: #12A19B;
+}
+.nav>.li-uno-menu>.a-menu:hover, .nav>.li-uno-menu>.a-menu:focus {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    background-color: #12A19B;
+}
+.navbar-header{
+    background-color: rgba(18, 161, 155, 0.66);
+    margin-top: 1em;
+  }
+  .nav .open>.a-sidebar, .nav .open>.a-sidebar:hover, .nav .open>.a-menu:focus,{
+      transition: all 0.2s ease;
+  }
+  .nav>.li-sidebar>.a-sidebar:hover, .nav>.li-sidebar>.a-sidebar:focus {
+      transition: all 0.2s ease;
+      text-decoration: none;
+      background-color: #12A19B;
+      color: white;
+  }
+/*******************************************************************************/
+.principal{
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-bottom: 5%;
+ background-color: rgba(242, 119, 212, 0.5);
+ padding: 2em;
+}
+/*******************************************************************************/
+.quitar-padding{
+ padding: 0;
+}
+.quitar-margin{
+ margin: 0;
+}
+/*******************************************************************************/
+.span-mi-icon{
+ background-color: white;
+}
+/*******************************************************************************/
+.tema{
+ background-color: #12A19B;
+}
+/*******************************************************************************/
+.ul-principal>li{
+ width: 17.3%;
+}
+.ul-principal>li:first-child{
+ width: 24%;
+}
+.ul-principal>li:last-child{
+ width: 24%;
+}
+.ul-principal{
+ width: 100%;
+ text-align: center;
+ /*padding-left: 6em;
+ padding-right: 6em;*/
+}
+.ul-principal>li>a{
+ color: white;
+ padding: 0!important;
+ background-color: rgba(18, 161, 155, 0.66);
+
+}
+/*******************************************************************************/
+.ver-h1{
+  color: #12A19B;
+}
+.ver-miniatura{
+  width: 90%;
+}
+/*MEDIAQUERY-MOVIL#############################################################*/
+@media (max-width: 768px) {
+  .bloque{
+    margin-bottom: 1em;
+  }
+  .logo{
+    margin-top: 3%;
+  }
+  .btn-group-vertical{
+    margin-top: 3%;
+  }
+
+  .ul-principal>li{
+    width: 100%!important;
+    border: none!important;
+    border-bottom: 1px solid white!important;
+  }
+  .nav{
+    margin: 0!important;
+  }
+  .ul-principal>li>a>span{
+    margin-top: 1%!important;
+  }
+  nav{
+    margin-top: 1em;
+    background-color: rgba(18, 161, 155, 0.66);
+  }
+  .navbar-header a{
+    color: white;
+  }
+  .h1-menu{
+    width: 60%!important;
+  }
+  .nav h1{
+    margin: 0!important;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .div-menu-principal {
+    margin-top: 0;
+  }
+  .div-columna-3{
+    height: auto;
+    position: static;
+    margin-top: 1em;
+  }
+
+  .form-citas{
+    position: static;
+  }
+  .miniatura{
+    min-width: 250px!important;
+    min-height: 250px!important;
+    max-width: 250px!important;
+    max-height: 250px!important;
+  }
+  .miniatura2{
+    width: 100%;
+    min-height: 250px!important;
+    max-height: 250px!important;
+  }
+}
+/*MEDIA-QUERY-SM###############################################################*/
+@media (max-width: 991px) {
+  .logo{
+    margin-top: 0.5em;
+  }
+  .btn-group-vertical{
+    margin-top: 1em;
+  }
+  .btn-group-vertical a{
+    font-size: 14px;
+  }
+}
+/*MEDIA-QUERY-LG###############################################################*/
+@media (max-width: 1014px) {
+  .nav .h1-menu{
+    font-size: 15px;
+  }
+  .footer-superior p{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+}
+/*#############################################################################*/
