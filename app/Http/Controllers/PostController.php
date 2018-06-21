@@ -151,7 +151,7 @@ class PostController extends Controller
       $post=Post::find($id);
       $images = Image::where('post_id','=', $post->id)->get();
       foreach ($images as $image) {
-        if (!empty($image)) {
+        if (empty($image)) {
           \Storage::delete($image->route);
         }
       }
